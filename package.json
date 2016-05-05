@@ -1,0 +1,42 @@
+{
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^5.0.0",
+    "less-loader": "^2.2.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^2.4.0",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
+    "node-sass": "^3.6.0",
+    "normalize-scss": "^4.2.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "name": "fy1",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengteling/fy1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengteling/fy1/issues"
+  },
+  "homepage": "https://github.com/pengteling/fy1",
+  "description": ""
+}
