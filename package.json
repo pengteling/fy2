@@ -8,11 +8,16 @@
     "less-loader": "^2.2.3",
     "raw-loader": "^0.5.1",
     "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "autoprefixer-loader": "^3.2.0",
+    "node-sass": "^3.7.0"
   },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-imagemin": "^2.4.0",
+    "imagemin-jpegtran": "^5.0.0",
+    "imagemin-optipng": "^5.0.0",
+    "imagemin-pngout": "^2.0.0",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
     "node-sass": "^3.6.0",

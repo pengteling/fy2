@@ -1,6 +1,6 @@
 //cnpm install webpack webpack-dev-server --save
 //cnpm install css-loader style-loader file-loader extract-text-webpack-plugin raw-loader --save-dev
-//cnpm install sass-loader less-loader autoprefixer-loader --save-dev
+//cnpm install node-sass sass-loader less-loader autoprefixer-loader --save-dev
 var path = require("path");
 var webpack = require("webpack");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -27,8 +27,8 @@ module.exports = {
     },
     output: {
         path: './dist/',
-        //publicPath: '/dist',
-        publicPath: './../',
+        publicPath: '/dist/', //调试时
+        //publicPath: './../', //发布时
         filename: './js/[name].js'
     },
     // devtool: "#inline-source-map",
@@ -88,7 +88,7 @@ module.exports = {
         ,
         //定义环境 程序中判断
         new webpack.DefinePlugin({
-            'process.env.NODE_ENV': JSON.stringify('production')
+            'process.env.NODE_ENV': JSON.stringify('production-dev')
         }),
         //压缩js 除$ jQuery
         new webpack.optimize.UglifyJsPlugin({

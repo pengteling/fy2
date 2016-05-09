@@ -1,5 +1,5 @@
-.main{
-	width:1100px;
+.mb{
+	width:1000px;
 	margin:0 auto;
 	position: relative;
 }
@@ -31,4 +31,9 @@ a{
 }
 ul,li,ol{
 	list-style:none;
+}
+.btn{
+	a{
+		@extend .block;
+	}
 }
