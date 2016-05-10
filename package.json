@@ -27,7 +27,7 @@
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
   },
-  "name": "fy1",
+  "name": "cjiwork",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
