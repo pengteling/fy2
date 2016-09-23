@@ -22,8 +22,8 @@ module.exports = {
     // ["webpack-dev-server/client?http://localhost:8080/", "webpack/hot/dev-server", './js/index.js']
     {
         index: ['./js/index.js']
-        // ,
-        // custom: ['./js/custom.js'],
+    // ,
+    // custom: ['./js/custom.js'],
     },
     output: {
         path: './dist/',
@@ -49,9 +49,9 @@ module.exports = {
                 test: /\.scss$/,
                 //loader: "style!css!less"
                 //loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass')
-                loader:  ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass')
+                loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass')
 
-                //loader:   'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass'
+            //loader:   'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass'
             }
 
             , {
